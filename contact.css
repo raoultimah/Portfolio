@@ -96,7 +96,7 @@ li{
 .list .active{
     color: #c0f0f7;
     padding: 5px 10px;
-    font-size: 4rem;
+    font-size: 2.7rem;
 }
 
 #nav{
@@ -130,64 +130,58 @@ li{
 
 /* form */
 
-.form-container{
-    align-items: center;
-    margin: 6rem 25%;
-    position: relative;
-    width: 50%;
-    height: 50rem;
-    border: 2px dashed rgb(255, 255, 255);
-    box-shadow: 1rem 0.31rem 1rem #d3d1d1;
-    align-items: center;
-    background-color: #a1d1df;
-    vertical-align: middle;
-}
+
 
 .form{
     padding: 20px;
-    margin-top: 20%;
-    margin-left: 25%;
+    margin-left: 40%;
     position: relative;
-    width: 50%;
-    height: 25rem;
+    width: 20%;
+    height: fit-content;
     box-shadow: 0.6rem 0.6rem 0.1rem #f1f1f1;
     text-align: center;
-    background-color: #fff;
+    background-color: #238d79;
     vertical-align: middle;
+    color: #fff;
+    align-self: center;
+    border-radius: 15px;
 }
 
 .line{
     vertical-align: middle;
-    margin-bottom: 10px;
-    padding: 10px;
+    margin-bottom: 5px;
+    padding: 5px;
 }
 
 .line input{
-    width: 60%;
-    padding: 5px 10px;
-    border-radius: 1.5rem;
+    width: 80%;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border-color: transparent;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .line textarea{
-    padding: 1px 5px;
-    border-radius: 0.5rem;
+    padding: 5px 5px;
+    border-radius: 10px;
+    border-color: transparent;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     vertical-align: middle;
 }
-.line label{
-    margin-bottom: 3px;
-    font-size: 1.8rem;
-    border-radius: 1rem;
-    display: inline-block;
-}
 
 .form .btn{
-    padding: 1rem 0;
-    width: 100%;
-    background-color: #a1d1df;
+    padding: 1.5rem;
+    width: 90%;
+    background-color: #030303;
     color: #f1f1f1;
-    border-radius: 15px;
+    border-radius: 10px;
+    transition: all 400ms ease-in-out;
+}
+
+.form .btn:hover{
+    color: #238d79;
+    font-weight: 700;
+    background-color: #fff;
 }
 
 /* copied styles */
@@ -482,7 +476,7 @@ li{
 /* Footer */
 
 #footer{
-    margin-top: 10rem;
+    margin-top: 3rem;
     background-color: rgb(80, 79, 79);
     padding: 6rem 1rem;
     line-height: 3rem;
