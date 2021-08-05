@@ -71,7 +71,7 @@ li{
     display: inline-block;
     position: relative;
     z-index: 0;
-    margin-bottom: ;
+    /* margin-bottom: ; */
 }
 
 /* header */
@@ -113,7 +113,7 @@ li{
 .list .active{
     color: #c0f0f7;
     padding: 5px 10px;
-    font-size: 4rem;
+    font-size: 2.7rem;
 }
 
 /* Product Banner */
@@ -193,7 +193,7 @@ li{
     padding: 1.6rem;
     overflow: hidden;
     z-index: 1;
-    box-shadow: 0.5rem 0.3rem 0.2rem 0.1rem #dfdddd;
+    box-shadow: 0.5rem 0.3rem 0.2rem 0.1rem #eeedef;
 }
 
 .advert-box img{
@@ -271,7 +271,7 @@ li{
 /* Footer */
 
 #footer{
-    margin-top: 10rem;
+    margin-top: 3rem;
     background-color: rgb(80, 79, 79);
     padding: 6rem 1rem;
     line-height: 3rem;
